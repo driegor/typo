@@ -149,5 +149,21 @@
   </div>    
   </div>
 
+ <div class='separator'>
+    <h4><%= _("Merge article") %></h4>
+    
+  <div class='clearfix'>
+    <label for="merge_with"><%= _("Article id") %></label>
+    <div class='input'>
+      <%= text_field :merge, :with, :class => 'small' %>
+    </div>
+  </div>
+
+ <%submit_tag "add"%>
+  
+  	
+  </div>
+  </div>
+
 </div>
 
